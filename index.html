@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="block">
+            <div class="text" id=""></div>
+            <button class="btn btn--hello">Hello World</button>
+            <form action="@" class="custom">
+                <input type="text" class="custom__text" placeholder="Ici du texte">
+                <input type="button" class="btn custom__btn" value="Custom">
+            </form>
+        </div>
+        <div class="block">
+            <ul class="colors">
+                <li class="colors__item">
+                    <button class="btn colors__btn colors__btn--red">Red</button>
+                </li>
+                <li class="colors__item">
+                    <button class="btn colors__btn colors__btn--green">Green</button>
+                </li>
+                <li class="colors__item">
+                    <button class="btn colors__btn colors__btn--blue">Blue</button>
+                </li>
+            </ul>
+            <button class="btn toggle">Toggle</button>
+            <button class="btn rainbow" id="js_rainbow">Rainbow</button>
+            <label for="border-id">Border</label>
+            <input id="border-id" type="range" min="0" max="20" name="border" step="1" value="1">
+        </div>
+    </main>
+</body>
+<script src="main.js"></script>
+</html>
